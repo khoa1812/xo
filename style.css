@@ -1,0 +1,22 @@
+.board {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    gap: 5px;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 24px;
+    border: 1px solid black;
+    line-height: 100px;
+}
+
+.cell.x {
+    color: blue;
+}
+
+.cell.o {
+    color: red;
+}
